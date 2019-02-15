@@ -1,0 +1,264 @@
+<html>
+<head>
+	<link rel='shortcut icon' href='/favicon.ico'/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+	<script src="jquery-ui.js"></script>
+	<link rel="stylesheet" type="text/css" href="blog.css">
+	<link rel="stylesheet" type="text/css" href="jquery-ui.css">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-132586107-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-132586107-1');
+	</script>
+
+</head>
+
+<body>
+	<div class="container">
+		<!-- Button trigger modal -->
+<!-- 		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+		  Launch demo modal
+		</button> -->
+		<header class="blog-header py-3">
+			<div class="row flex-nowrap justify-content-between align-items-center">
+			  <div class="col-4 pt-1">
+			    <!-- <a class="text-muted" href="#">Subscribe</a> -->
+			  </div>
+			  <div class="col-4 text-center">
+			    <a class="blog-header-logo text-dark" href="/">Booklists</a>
+			  </div>
+			  <div class="col-4 d-flex justify-content-end align-items-center">
+<!-- 			    <a class="text-muted" href="#">
+			      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mx-3" focusable="false" role="img"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"></circle><line x1="21" y1="21" x2="15.8" y2="15.8"></line></svg>
+			    </a> -->
+			    <button type="button" data-toggle="modal" data-target="#exampleModal" class="btn btn-primary" href="#">Add a list</button>
+			  </div>
+			</div>
+		</header>
+		</br>
+<!-- 		<div class="jumbotron p-3 p-md-5 text-white rounded bg-dark">
+		    <div class="col-md-6 px-0">
+				<h1 class="display-4 font-italic">Find your next book</h1>
+				<p class="lead my-3">Explore the best book lists from people, publications, websites and more.</p>
+		    </div>
+		</div> -->
+
+
+
+
+
+
+
+
+
+<!-- 		<hr>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="form-group">
+					<label>List</label>
+					<select class="form-control">
+					  <option value="NY Times Nonfiction Bestseller">NY Times Non-Fiction Bestseller</option>
+					  <option value="NY Times Fiction Bestseller">NY Times Fiction Bestseller</option>
+					  <option value="Obama's Booklist">Obama's Booklist</option>
+					</select>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="form-group">
+					<label>Name</label>
+					<select class="form-control">
+					  <option value="2000">2000</option>
+					  <option value="2001">2001</option>
+					  <option value="2002">2002</option>
+					  <option value="2003">2003</option>
+					  <option value="2004">2004</option>
+					  <option value="2005">2005</option>
+					  <option value="2006">2006</option>
+					  <option value="2007">2007</option>
+					  <option value="2008">2008</option>
+					  <option value="2009">2009</option>
+					  <option value="2010">2010</option>
+					  <option value="2011">2011</option>
+					  <option value="2012">2012</option>
+					  <option value="2013">2013</option>
+					  <option value="2014">2014</option>
+					  <option value="2015">2015</option>
+					  <option value="2016">2016</option>
+					  <option value="2017">2017</option>
+					  <option value="2018" selected="selected">2018</option>
+					  <option value="all">All Years</option>
+					</select>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="form-group">
+					<label>Genre</label>
+					<select class="form-control">
+					  <option value="all" selected="selected">All Genres</option>
+					</select>
+				 </div>
+			 </div>
+		 </div>
+		<hr>
+
+
+
+
+
+
+		<div class="row">
+			<div class="col-md-4">
+				<div class="form-group">
+					<label>List</label>
+					<select class="form-control">
+					  <option value="NY Times Nonfiction Bestseller">NY Times Non-Fiction Bestseller</option>
+					  <option value="NY Times Fiction Bestseller">NY Times Fiction Bestseller</option>
+					  <option value="Obama's Booklist">Obama's Booklist</option>
+					</select>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="form-group">
+					<label>Year</label>
+					<select class="form-control">
+					  <option value="2000">2000</option>
+					  <option value="2001">2001</option>
+					  <option value="2002">2002</option>
+					  <option value="2003">2003</option>
+					  <option value="2004">2004</option>
+					  <option value="2005">2005</option>
+					  <option value="2006">2006</option>
+					  <option value="2007">2007</option>
+					  <option value="2008">2008</option>
+					  <option value="2009">2009</option>
+					  <option value="2010">2010</option>
+					  <option value="2011">2011</option>
+					  <option value="2012">2012</option>
+					  <option value="2013">2013</option>
+					  <option value="2014">2014</option>
+					  <option value="2015">2015</option>
+					  <option value="2016">2016</option>
+					  <option value="2017">2017</option>
+					  <option value="2018" selected="selected">2018</option>
+					  <option value="all">All Years</option>
+					</select>
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="form-group">
+					<label>Order</label>
+					<select class="form-control">
+					  <option value="all" selected="selected">Ascending</option>
+					  <option value="all" selected="selected">Descending</option>
+					</select>
+				 </div>
+			 </div>
+			<div class="col-md-4">
+				<div class="form-group">
+					<label>Genre</label>
+					<select class="form-control">
+					  <option value="all" selected="selected">All Genres</option>
+					</select>
+				 </div>
+			 </div>
+		 </div>
+		 <hr> -->
+
+
+
+
+
+
+
+
+
+		<!-- <div class="row filter-group"> -->
+			<form class="filter form-group" id="options">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="form-group">
+							<label>List</label>
+							<select class="form-control" id="list">
+							  <option value="NY Times Nonfiction Bestseller">NY Times Nonfiction Bestseller</option>
+							  <option value="NY Times Fiction Bestseller">NY Times Fiction Bestseller</option>
+							  <option value="Obama Booklist">Obama Booklist</option>
+							</select>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="form-group">
+							<label>Name</label>
+							<select class="form-control" id="listyear">
+							  <option value="2000">2000</option>
+							  <option value="2001">2001</option>
+							  <option value="2002">2002</option>
+							  <option value="2003">2003</option>
+							  <option value="2004">2004</option>
+							  <option value="2005">2005</option>
+							  <option value="2006">2006</option>
+							  <option value="2007">2007</option>
+							  <option value="2008">2008</option>
+							  <option value="2009">2009</option>
+							  <option value="2010">2010</option>
+							  <option value="2011">2011</option>
+							  <option value="2012">2012</option>
+							  <option value="2013">2013</option>
+							  <option value="2014">2014</option>
+							  <option value="2015">2015</option>
+							  <option value="2016">2016</option>
+							  <option value="2017">2017</option>
+							  <option value="2018" selected="selected">2018</option>
+							  <option value="all">All Years</option>
+							</select>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="form-group">
+							<label>Genre</label>
+							<select class="form-control" id="genre">
+							  <option value="all" selected="selected">All Genres</option>
+							</select>
+						 </div>
+					 </div>
+				 </div>
+			</form>
+	<!-- 	</div> -->
+		<div class="row books">
+		</div>
+		<footer class="blog-footer">
+		  <p>Booklist built by <a href="https://twitter.com/MatthewWSiu">@MatthewWSiu</a>.</p>
+		  <p>
+		    <a href="#">Back to top</a>
+		  </p>
+		</footer>
+		<!-- Modal -->
+		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="exampleModalLabel">Add a list</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		      	<label for="website">Share a link to a good list of books and I'll try to add it!</label>
+		        <input type="text" id="website" placeholder="URL" class="form-control" aria-label="link to list">
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" id="linkSubmission" class="btn btn-primary">Submit</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	</div>
+	<script type="text/javascript" src="update.js"></script>
+	<script type="text/javascript" src="handleSuggestions.js"></script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="blog.css">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-132586107-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-132586107-1');
+	</script>
+
+</head>
+
+<body>
+	<div class="container">
+		<!-- Button trigger modal -->
+<!-- 		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+		  Launch demo modal
+		</button> -->
+		<header class="blog-header py-3">
+			<div class="row flex-nowrap justify-content-between align-items-center">
+			  <div class="col-4 pt-1">
+			    <!-- <a class="text-muted" href="#">Subscribe</a> -->
+			  </div>
+			  <div class="col-4 text-center">
+			    <a class="blog-header-logo text-dark" href="/">Booklists</a>
+			  </div>
+			  <div class="col-4 d-flex justify-content-end align-items-center">
+<!-- 			    <a class="text-muted" href="#">
+			      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mx-3" focusable="false" role="img"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"></circle><line x1="21" y1="21" x2="15.8" y2="15.8"></line></svg>
+			    </a> -->
+			    <button type="button" data-toggle="modal" data-target="#exampleModal" class="btn btn-primary" href="#">Add a list</button>
+			  </div>
+			</div>
+		</header>
+		<div class="jumbotron p-3 p-md-5 text-white rounded bg-dark">
+		    <div class="col-md-6 px-0">
+				<h1 class="display-4 font-italic">Find your next book</h1>
+				<p class="lead my-3">Explore the best book lists from people, publications, websites and more.</p>
+		<!-- 		<p class="lead mb-0"><a href="#" class="text-white font-weight-bold">Continue reading...</a></p> -->
+		    </div>
+		</div>
+		<div id="cards">
+			<div class="card-deck">
+				<a href="/?listyear=2018&genre=all&list=NY%20Times%20Nonfiction%20Bestseller" class="card text-center" style="color: inherit;text-decoration: none;width: 18rem;height:200px;background-color:#8fbeaa">
+				  <div class="card-body">
+				    <h4 class="card-title">NY Times Nonfiction Bestsellers 2018</h5>
+	<!-- 			    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+				    <a href="#" class="btn btn-primary">Go somewhere</a> -->
+				  </div>
+				</a>
+				<a href="/?listyear=2018&genre=all&list=NY%20Times%20Fiction%20Bestseller" class="card text-center" style="color: inherit;text-decoration: none;width: 18rem;height:200px;background-color:#8fbeaa">
+				  <div class="card-body">
+				    <h4 class="card-title">NY Times Fiction Bestsellers 2018</h5>
+	<!-- 			    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+				    <a href="#" class="btn btn-primary">Go somewhere</a> -->
+				  </div>
+				</a>
+				<a href="/?listyear=2018&genre=all&list=NY%20Times%20Fiction%20Bestseller" class="card text-center" style="color: inherit;text-decoration: none;width: 18rem;height:200px;background-color:#8fbeaa">
+				  <div class="card-body">
+				    <h4 class="card-title">NY Times Fiction Bestsellers 2018</h5>
+	<!-- 			    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+				    <a href="#" class="btn btn-primary">Go somewhere</a> -->
+				  </div>
+				</a>
+
+			</div>
+		</div>
+		</br>
+		<footer class="blog-footer">
+		  <p>Booklist built by <a href="https://twitter.com/MatthewWSiu">@MatthewWSiu</a>.</p>
+		  <p>
+		    <a href="#">Back to top</a>
+		  </p>
+		</footer>
+		<!-- Modal -->
+		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="exampleModalLabel">Suggest a list</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		      	<label for="website">Link to list</label>
+		        <input type="text" id="website" class="form-control" aria-label="link to list">
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-primary">Submit</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	</div>
+
+
+	<!-- Plus button card-->
+			<!-- div class="card text-center" style="width: 18rem;height:200px;">
+			  <div class="card-body">
+			    <h4 class="card-title">Add a list</h5>
+			    <button style="margin: auto;width: 100%;height:100px;font-size:6em" type="button" class="close" data-toggle="modal" data-target="#exampleModal">
+		          <span aria-hidden="true">&plus;</span>
+		        </button>
+			  </div>
+			</div> -->
+
+
+	<script type="text/javascript" src="homepage.js"></script>
+</body>
+</html>

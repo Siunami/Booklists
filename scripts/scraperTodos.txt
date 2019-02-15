@@ -1,0 +1,41 @@
+http://time.com/100-best-young-adult-books/
+
+Need to click through gallery to get books.
+- selenium scraper + pyautogui
+- parse text for book and author
+- click the next button to get next book in the list.
+
+
+All Oprah Book Club books
+https://www.oprahmag.com/entertainment/books/g23067476/oprah-book-club-list/
+
+
+
+https://www.goodreads.com/choiceawards/best-books-2009
+to
+https://www.goodreads.com/choiceawards/best-books-2018
+
+Write a scraper rather than collecting manually.
+- get catagories id
+- get each link for a catagory
+
+Go to each catagory page for a link.
+- scrape all book title and author (information in alt-text of image)
+- parse out separate title and author from info.
+- add with list and year
+
+
+
+4th annual goldman sachs book recommends
+https://www.goldmansachs.com/careers/blog/posts/fall-reading-list-2018.html
+
+Simple page parse
+
+
+2008-2018
+https://apps.npr.org/best-books-2018/
+-Can get book title from alt-text of book image.
+- No good structured way to get author. Can scrape from amazon link? That's if the title is enough to find book
+
+
+
