@@ -22,5 +22,5 @@ Scraping
 
 ## Learned
 
-- BeautifulSoup + Selenium + Regex for scraping a variety of different books lists formats on the web
-- 
+- Used BeautifulSoup + Selenium + Regex for scraping a variety of different books lists formats on the web
+- MongoDB database using Mlab for hosting
